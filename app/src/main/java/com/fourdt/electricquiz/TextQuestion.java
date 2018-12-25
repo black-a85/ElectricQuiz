@@ -1,17 +1,13 @@
 package com.fourdt.electricquiz;
 
-public class TextQuestion {
-    private String question;
+public class TextQuestion extends Question {
     private String answer;
 
     public TextQuestion(String question, String answer) {
-        this.question = question;
+        super(question);
         this.answer = answer;
     }
 
-    public String getQuestion() {
-        return question;
-    }
 
     public String getAnswer() {
         return answer;
